@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+// ----------------------------------------
+// ! remove page metabox
+// ----------------------------------------
+function page_remove_parent_meta_boxes() {
+    remove_meta_box('pageparentdiv', 'page', 'side');
+}
+add_action( 'admin_menu', 'page_remove_parent_meta_boxes' );
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>removemetaboxes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

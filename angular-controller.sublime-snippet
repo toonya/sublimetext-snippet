@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+
+'use strict';
+
+/**
+ * @ngdoc function
+ * @name ${2:appName}App.controller:${1:controllerName}Ctrl
+ * @description
+ * # ${1:controllerName}Ctrl
+ * Controller of the ${2:appName}App
+ */
+angular.module('${2:appName}App')
+	.controller('${1:controllerName}Ctrl', function ($scope) {
+		// code here
+	});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ngctrl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

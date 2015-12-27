@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+#${1: id}.carousel.slide(data-ride="carousel")
+	ol.carousel-indicators
+		li.active(data-target="#${1: id}", data-slide-to="0")
+		li(data-target="#${1: id}", data-slide-to="1")
+		
+	.carousel-inner
+	.left.carousel-control(href="#${1: id}", role="button", data-slide="prev")
+	.right.carousel-control(href="#${1: id}", role="button", data-slide="next")
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>carouseljade</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

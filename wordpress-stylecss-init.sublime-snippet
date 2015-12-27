@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/*  
+Theme Name: ${1}
+Theme URI: 
+Description: 
+Version: 
+Author: 
+Author URI: 
+Tags: 
+*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wpstyle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

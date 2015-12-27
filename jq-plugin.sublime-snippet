@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+(function(\$){
+
+    "use strict";
+
+    \$.fn.${1:functionName} = function(options) {
+        return this.each(function(){
+            var data = \$(this).data();
+            var options = \$.extend({}, options, data);
+            options.\$this = \$(this);
+            new ${2:function_name}(options);
+        })
+    }
+
+    var ${2:function_name} = function(options){
+        this.init(options);
+    }
+
+    ${2:function_name}.prototype = {
+        init : function(options){
+            this.options = options;
+
+            this.render();
+            this.bind();
+        }
+    }
+
+    \$('').${1:functionName}();
+    
+})(jQuery)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jqplugin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
